@@ -81,6 +81,8 @@ function playgame(){
             i--;
         }
     }
+
+    console.log(`Final score : You ${humanScore} Computer ${computerScore}`)
 }
 
 playgame()
